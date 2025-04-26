@@ -23,6 +23,10 @@ Key Devices:
 
 Multiple End Devices (3 PCs in each VLAN)
 
+Network Topology Image:
+![Topology Image](https://github.com/user-attachments/assets/3273cee9-746b-46bd-9c18-96da17bdae8d)
+
+
 
 🔧 Configuration Details
 
@@ -90,8 +94,9 @@ Extend ACLs for more granular permissions.
 
 Simulate external connectivity (e.g., Internet access through NAT).
 
-✨ Author
+✨ Author:
 Sufran Olaniyi
+
 Network Engineer | Lifelong Learner | Automation Enthusiast
 [github.com/Surfy567]
 
