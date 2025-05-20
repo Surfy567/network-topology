@@ -1,109 +1,106 @@
-📡 Network Segmentation and Inter-VLAN Routing Project
+# Network Segmentation and Inter-VLAN Routing Project
 
-📖 Project Overview
+## Project Overview
 This project demonstrates network segmentation and inter-VLAN routing using Cisco Packet Tracer.
 It involves creating multiple VLANs, configuring a router for inter-VLAN routing, and applying Access Control Lists (ACLs) to enforce security policies between departments.
 
-🏗️ Network Design
-Departments/VLANs:
+## Network Design
+### Departments/VLANs:
 
-VLAN 10 – Sales (192.168.10.0/24)
+- VLAN 10 – Sales (192.168.10.0/24)
 
-VLAN 20 – IT (192.168.20.0/24)
+- VLAN 20 – IT (192.168.20.0/24)
 
-VLAN 30 – HR (192.168.30.0/24)
+- VLAN 30 – HR (192.168.30.0/24)
 
-VLAN 40 – Marketing (192.168.40.0/24)
+- VLAN 40 – Marketing (192.168.40.0/24)
 
-Key Devices:
+## Key Devices:
 
-1x Cisco Router (Inter-VLAN Routing)
+- 1x Cisco Router (Inter-VLAN Routing)
 
-5x Cisco Switches (VLAN Management)
+- 5x Cisco Switches (VLAN Management)
 
-Multiple End Devices (3 PCs in each VLAN)
+- Multiple End Devices (3 PCs in each VLAN)
 
-Network Topology Image:
+## Network Topology Image:
 ![Topology Image](https://github.com/user-attachments/assets/3273cee9-746b-46bd-9c18-96da17bdae8d)
 
 
 
-🔧 Configuration Details
+## Configuration Details
 
 
-Switch Configuration:
+### Switch Configuration:
 
-VLAN creation and port assignment
+- VLAN creation and port assignment
 
-Trunk link configuration between switches and router
-
-
-Router Configuration:
-
-Subinterfaces for each VLAN (GigabitEthernet0/0/0.10, .20, .30, .40)
-
-Encapsulation with dot1Q
-
-IP addressing for each VLAN
+- Trunk link configuration between switches and router
 
 
-Security (ACLs):
+### Router Configuration:
 
-Extended ACLs applied inbound on router subinterfaces
+- Subinterfaces for each VLAN (GigabitEthernet0/0/0.10, .20, .30, .40)
 
-Controlled access between departments (e.g., only IT can be reached by others)
+- Encapsulation with dot1Q
 
-
-🛠️ Technologies Used
-Cisco Packet Tracer
-
-VLANs and Trunking
-
-Router-on-a-Stick (Inter-VLAN Routing)
-
-Extended Access Control Lists (ACLs)
-
-Basic Networking Principles
+- IP addressing for each VLAN
 
 
-🚀 How to Open and Explore
-Download the .pkt file.
+### Security (ACLs):
 
-Open it using Cisco Packet Tracer.
+- Extended ACLs applied inbound on router subinterfaces
 
-Explore device configurations.
-
-Test connectivity using ping and tracert commands.
-
-📋 Project Outcomes
-Gained hands-on experience with VLAN design and segmentation.
-
-Implemented secure inter-VLAN communication.
-
-Strengthened understanding of ACL application and traffic control.
-
-Practiced real-world troubleshooting and network documentation.
+- Controlled access between departments (e.g., only IT can be reached by others)
 
 
-📚 Future Improvements
-Implement DHCP services for dynamic IP addressing.
+## Technologies Used
 
-Introduce redundancy using EtherChannel.
+- Cisco Packet Tracer
 
-Extend ACLs for more granular permissions.
+- VLANs and Trunking
 
-Simulate external connectivity (e.g., Internet access through NAT).
+- Router-on-a-Stick (Inter-VLAN Routing)
 
-✨ Author:
-Sufran Olaniyi
+- Extended Access Control Lists (ACLs)
 
-Network Engineer | Lifelong Learner | Automation Enthusiast
-[github.com/Surfy567]
+- Basic Networking Principles
 
-📎 Repository Contents
-File	                      Description
-*project-final.pkt	 Cisco Packet Tracer Project File
-*topology-diagram.png	 Network Topology Image
-*router-config.txt	 Router Configuration Backup
-*switch-config.txt	 Switches Configuration Backup
-*README.md	         Project Documentation
+
+## How to Open and Explore
+
+- Download the .pkt file.
+
+- Open it using Cisco Packet Tracer.
+
+- Explore device configurations.
+
+- Test connectivity using ping and tracert commands.
+
+## Project Outcomes
+
+- Gained hands-on experience with VLAN design and segmentation.
+
+- Implemented secure inter-VLAN communication.
+
+- Strengthened understanding of ACL application and traffic control.
+
+- Practiced real-world troubleshooting and network documentation.
+
+## Future Improvements
+
+- Implement DHCP services for dynamic IP addressing.
+
+- Introduce redundancy using EtherChannel.
+
+- Extend ACLs for more granular permissions.
+
+- Simulate external connectivity (e.g., Internet access through NAT).
+
+# Author:
+**Sufran Olaniyi**
+
+**Lifelong Learner | Automation Enthusiast**
+
+
+
